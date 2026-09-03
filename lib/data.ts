@@ -7,6 +7,7 @@ export const person = {
   shortName: "Reyhan",
   email: "reyhanadijayawasita@gmail.com",
   linkedin: "https://www.linkedin.com/in/reyhan-adi-jayawasita-7172383b7",
+  instagram: "https://www.instagram.com/reyhansch",
   headline: "Business, Economics & Accounting — Competitive Achievement, Analytical Thinking",
   tagline:
     "Business Administration student and 70+ time academic competitor across Accounting, Economics, Finance and Business.",

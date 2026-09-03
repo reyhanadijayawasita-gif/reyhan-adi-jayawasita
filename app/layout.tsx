@@ -101,7 +101,7 @@ const structuredData = {
           name: "SMA Little Sun Surabaya",
         },
       ],
-      sameAs: [person.linkedin],
+      sameAs: [person.linkedin, person.instagram],
     },
     {
       "@type": "WebSite",

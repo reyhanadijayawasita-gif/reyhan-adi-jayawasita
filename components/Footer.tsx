@@ -53,6 +53,16 @@ export default function Footer() {
               </a>
             </li>
             <li>
+              <a
+                href={person.instagram}
+                target="_blank"
+                rel="noopener noreferrer me"
+                className="hover:text-ink-950"
+              >
+                Instagram
+              </a>
+            </li>
+            <li>
               <a href={`mailto:${person.email}`} className="hover:text-ink-950">
                 {person.email}
               </a>
