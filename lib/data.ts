@@ -171,6 +171,26 @@ export const achievementPhotos: AchievementPhoto[] = [
     alt: "Winner trophy and signage for Olimpiade Ekonomi 22nd at Universitas Airlangga",
     caption: "1st Place — Olimpiade Ekonomi (OE), Universitas Airlangga",
   },
+  {
+    src: "/images/achievements/wmag.jpg",
+    alt: "1st place perpetual trophy and gold medals for the Widya Mandala Accounting Game (Clash of Future Accountants), Universitas Katolik Widya Mandala",
+    caption: "1st Place & MVP — Widya Mandala Accounting Game (WMAG), Universitas Katolik Widya Mandala",
+  },
+  {
+    src: "/images/achievements/osge.jpg",
+    alt: "Certificate and gold medal awarded to Reyhan Adi Jayawasita for Gold Medal (Absolute Winner) in Economics at Olimpiade Sains Generasi Emas (OSGE), Risetnesia, 2025",
+    caption: "Gold Medal (Absolute Winner) — Olimpiade Sains Generasi Emas (OSGE), Risetnesia",
+  },
+  {
+    src: "/images/achievements/raise.jpg",
+    alt: "2nd place trophy and prize signage for Run Accounting and Investment (RAISE), Universitas Ciputra, November 2025",
+    caption: "2nd Place — Run Accounting and Investment (RAISE), Universitas Ciputra",
+  },
+  {
+    src: "/images/achievements/tac.jpg",
+    alt: "2nd place prize signage for the Teenage Accounting Competition (TAC) 2025, Universitas Airlangga",
+    caption: "2nd Place — Teenage Accounting Competition (TAC), Universitas Airlangga",
+  },
 ];
 
 export const domains = [
