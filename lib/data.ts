@@ -196,6 +196,31 @@ export const achievementPhotos: AchievementPhoto[] = [
     alt: "Reyhan Adi Jayawasita (right) holding the 1st place trophy and medal at the Actuarial Science Olympiad, Fakultas MIPA, Universitas Gadjah Mada Yogyakarta",
     caption: "1st Place — Actuarial Science Olympiad (ASIQ), Universitas Gadjah Mada Yogyakarta",
   },
+  {
+    src: "/images/achievements/asec.jpg",
+    alt: "3rd place trophy and certificate for the Accounting Skill and English Competition (ASEC) 2025, Politeknik Negeri Malang",
+    caption: "3rd Place — Accounting Skill and English Competition (ASEC), Politeknik Negeri Malang",
+  },
+  {
+    src: "/images/achievements/oe-atmajaya.jpg",
+    alt: "2nd place trophy and certificate for Olimpiade Ekonomi 2026, Universitas Atma Jaya Yogyakarta",
+    caption: "2nd Place — Olimpiade Ekonomi (OE), Universitas Atma Jaya Yogyakarta",
+  },
+  {
+    src: "/images/achievements/jao.jpg",
+    alt: "Reyhan Adi Jayawasita and a teammate holding the 2nd place trophy and signage for Junior Accounting Olympiad (JAO) 2025",
+    caption: "2nd Place — Junior Accounting Olympiad (JAO), Universitas Muhammadiyah Jember",
+  },
+  {
+    src: "/images/achievements/blc.jpg",
+    alt: "1st place trophy and winner signage for the Business Logistics Competition (BLC) 2025, Universitas Kristen Petra",
+    caption: "1st Place — Business Logistic Competition (BLC), Universitas Kristen Petra",
+  },
+  {
+    src: "/images/achievements/sec-stiesia.jpg",
+    alt: "Reyhan Adi Jayawasita and a teammate holding the 2nd place trophy and certificate for the Stiesia Economic Competition (SEC)",
+    caption: "2nd Place — Stiesia Economic Competition (SEC), Sekolah Tinggi Ilmu Ekonomi Surabaya",
+  },
 ];
 
 export const domains = [
