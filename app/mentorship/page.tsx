@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 import RelatedLinks from "@/components/RelatedLinks";
-import { experience } from "@/lib/data";
+import PhotoGallery from "@/components/PhotoGallery";
+import { experience, teachingPhotos } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Mentorship",
@@ -53,6 +54,13 @@ export default function MentorshipPage() {
             practical test of communication and leadership, alongside the
             technical grounding in accounting and economics itself.
           </p>
+        </div>
+      </section>
+
+      <section className="rule">
+        <div className="container-page py-16 sm:py-20">
+          <p className="eyebrow mb-6">In the classroom</p>
+          <PhotoGallery photos={teachingPhotos} variant="landscape" />
         </div>
       </section>
 

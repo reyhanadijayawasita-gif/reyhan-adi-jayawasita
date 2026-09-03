@@ -142,11 +142,12 @@ export const achievements: Achievement[] = [
   { year: 2023, level: "National", result: "2nd Runner-Up", rank: 0, competition: "Airlangga Accounting Competition", code: "AAC", organizer: "Universitas Airlangga" },
 ];
 
-export type AchievementPhoto = {
+export type GalleryPhoto = {
   src: string;
   alt: string;
   caption: string;
 };
+export type AchievementPhoto = GalleryPhoto;
 
 // Photo documentation from award ceremonies, matched against the
 // certificates/signage visible in each photo against the record above.
@@ -295,3 +296,33 @@ export const stats = {
   podiumFinishes: achievements.filter((a) => a.rank > 0).length,
   yearsActive: Array.from(new Set(achievements.map((a) => a.year))).length,
 };
+
+// Photo documentation of Reyhan's tutoring/coaching sessions (Academic
+// Mentor & Subject Tutor / External Competition Tutor roles).
+export const teachingPhotos: GalleryPhoto[] = [
+  {
+    src: "/images/mentorship/teaching-1.jpg",
+    alt: "Reyhan Adi Jayawasita solving a market equilibrium and consumer/producer surplus problem on a whiteboard",
+    caption: "Working through a market equilibrium and surplus problem — Microeconomics",
+  },
+  {
+    src: "/images/mentorship/teaching-2.jpg",
+    alt: "Reyhan Adi Jayawasita reviewing a producer surplus practice question, with an exam question projected alongside the whiteboard",
+    caption: "Reviewing a producer surplus practice question with a student",
+  },
+  {
+    src: "/images/mentorship/teaching-3.jpg",
+    alt: "Reyhan Adi Jayawasita teaching perfect competition, monopoly and natural monopoly market structures on a whiteboard",
+    caption: "Teaching market structures — perfect competition, monopoly and natural monopoly",
+  },
+  {
+    src: "/images/mentorship/teaching-4.jpg",
+    alt: "Reyhan Adi Jayawasita working through a marginal cost and marginal revenue practice problem with a student",
+    caption: "Working through a marginal cost and marginal revenue problem",
+  },
+  {
+    src: "/images/mentorship/teaching-5.jpg",
+    alt: "Whiteboard covered in time value of money formulas — future value, present value, annuity and effective interest rate",
+    caption: "Teaching time value of money — future value, present value and annuity formulas",
+  },
+];
