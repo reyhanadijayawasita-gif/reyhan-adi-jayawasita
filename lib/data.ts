@@ -142,6 +142,37 @@ export const achievements: Achievement[] = [
   { year: 2023, level: "National", result: "2nd Runner-Up", rank: 0, competition: "Airlangga Accounting Competition", code: "AAC", organizer: "Universitas Airlangga" },
 ];
 
+export type AchievementPhoto = {
+  src: string;
+  alt: string;
+  caption: string;
+};
+
+// Photo documentation from award ceremonies, matched against the
+// certificates/signage visible in each photo against the record above.
+export const achievementPhotos: AchievementPhoto[] = [
+  {
+    src: "/images/achievements/hisac.jpg",
+    alt: "Reyhan Adi Jayawasita (right) receiving the 1st place certificate and trophy at the High School Accounting Competition (HISAC), Universitas Wijaya Kusuma Surabaya",
+    caption: "1st Place — High School Accounting Competition (HISAC), Universitas Wijaya Kusuma Surabaya",
+  },
+  {
+    src: "/images/achievements/aca.jpg",
+    alt: "Reyhan Adi Jayawasita (left) receiving the 1st place trophy and scholarship certificate at the Accounting Competition of Asia (ACA), Institut Teknologi & Bisnis ASIA Malang",
+    caption: "1st Place — Accounting Competition of Asia (ACA), Institut Teknologi & Bisnis ASIA Malang",
+  },
+  {
+    src: "/images/achievements/venturistic.jpg",
+    alt: "Reyhan Adi Jayawasita and teammates on stage with the 2nd place trophy at VENTURISTIC Business Plan Competition 2025, Universitas Ciputra",
+    caption: "2nd Place — VENTURISTIC Business Plan Competition, Universitas Ciputra",
+  },
+  {
+    src: "/images/achievements/oe-airlangga.jpg",
+    alt: "Winner trophy and signage for Olimpiade Ekonomi 22nd at Universitas Airlangga",
+    caption: "1st Place — Olimpiade Ekonomi (OE), Universitas Airlangga",
+  },
+];
+
 export const domains = [
   "Accounting",
   "Economics",

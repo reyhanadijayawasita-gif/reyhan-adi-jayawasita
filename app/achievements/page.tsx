@@ -4,7 +4,8 @@ import StatTile from "@/components/StatTile";
 import AchievementYearGroup from "@/components/AchievementYearGroup";
 import RankBadge from "@/components/RankBadge";
 import RelatedLinks from "@/components/RelatedLinks";
-import { achievements, stats, type Achievement } from "@/lib/data";
+import PhotoGallery from "@/components/PhotoGallery";
+import { achievements, achievementPhotos, stats, type Achievement } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Achievements",
@@ -73,6 +74,13 @@ export default function AchievementsPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="rule">
+        <div className="container-page py-16 sm:py-20">
+          <p className="eyebrow mb-6">From the podium</p>
+          <PhotoGallery photos={achievementPhotos} />
         </div>
       </section>
 
