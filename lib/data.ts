@@ -191,6 +191,11 @@ export const achievementPhotos: AchievementPhoto[] = [
     alt: "2nd place prize signage for the Teenage Accounting Competition (TAC) 2025, Universitas Airlangga",
     caption: "2nd Place — Teenage Accounting Competition (TAC), Universitas Airlangga",
   },
+  {
+    src: "/images/achievements/asiq.jpg",
+    alt: "Reyhan Adi Jayawasita (right) holding the 1st place trophy and medal at the Actuarial Science Olympiad, Fakultas MIPA, Universitas Gadjah Mada Yogyakarta",
+    caption: "1st Place — Actuarial Science Olympiad (ASIQ), Universitas Gadjah Mada Yogyakarta",
+  },
 ];
 
 export const domains = [
