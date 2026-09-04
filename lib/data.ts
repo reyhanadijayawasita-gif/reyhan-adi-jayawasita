@@ -223,6 +223,31 @@ export const achievementPhotos: AchievementPhoto[] = [
     alt: "Reyhan Adi Jayawasita and a teammate holding the 2nd place trophy and certificate for the Stiesia Economic Competition (SEC)",
     caption: "2nd Place — Stiesia Economic Competition (SEC), Sekolah Tinggi Ilmu Ekonomi Surabaya",
   },
+  {
+    src: "/images/achievements/ecobattle.jpg",
+    alt: "\"Tim Terbaik\" (Best Team) award signage for Lomba Cerdas Cermat Ecobattle 2025, Universitas Wisnuwardhana Malang",
+    caption: "Best Team — Lomba Cerdas Cermat Ecobattle, Universitas Wisnuwardhana Malang",
+  },
+  {
+    src: "/images/achievements/oau.jpg",
+    alt: "1st place and Best Speaker trophies and certificates for Olimpiade Akuntansi Unusida (OAU) 2026, Universitas Nahdlatul Ulama Sidoarjo",
+    caption: "1st Place & Best Speaker — Olimpiade Akuntansi Unusida (OAU), Universitas Nahdlatul Ulama Sidoarjo",
+  },
+  {
+    src: "/images/achievements/accounting-power.jpg",
+    alt: "Reyhan Adi Jayawasita receiving the 1st place trophy and certificate at the Accounting Power Competition, Universitas Muhammadiyah Gresik",
+    caption: "1st Place — Accounting Power Competition, Universitas Muhammadiyah Gresik",
+  },
+  {
+    src: "/images/achievements/aca-2.jpg",
+    alt: "1st place perpetual trophy and awards for the Accounting Competition of Asia (ACA), Institut Teknologi & Bisnis ASIA Malang",
+    caption: "1st Place — Accounting Competition of Asia (ACA), Institut Teknologi & Bisnis ASIA Malang",
+  },
+  {
+    src: "/images/achievements/bxb.jpg",
+    alt: "1st place trophy and certificate for Brain x Biz (BxB) Competition 2026, Universitas Pelita Harapan Tangerang",
+    caption: "1st Place — Brain x Biz (BxB), Universitas Pelita Harapan Tangerang",
+  },
 ];
 
 export const domains = [
